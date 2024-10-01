@@ -27,6 +27,7 @@ public class LogicTest {
         Logic logic = new Logic();
         BishopBlack bishopBlack1 = new BishopBlack(Cell.D4);
         BishopBlack bishopBlack2 = new BishopBlack(Cell.E5);
+
         logic.add(bishopBlack1);
         logic.add(bishopBlack2);
         OccupiedCellException exception = assertThrows(OccupiedCellException.class, () -> {

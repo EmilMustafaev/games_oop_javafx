@@ -20,11 +20,13 @@ public class CatchBall extends Application {
         Scene scene = new Scene(canvas, 500, 500);
         Circle ball = new Circle(10, Color.BLACK);
         ball.setLayoutX(10);
+
         ball.setLayoutY(10);
+
         canvas.getChildren().add(ball);
         stage.setScene(scene);
         stage.show();
-        stage.setTitle("CatchBall");
+        stage.setTitle("PackMan minimal");
         new Thread(() -> {
             var direction = true;
             while (true) {

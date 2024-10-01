@@ -12,6 +12,7 @@ public class Block implements Figure {
         return this.position;
     }
 
+
     @Override
     public Cell[] way(Cell dest) {
         return new Cell[0];
