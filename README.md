@@ -3,7 +3,7 @@ All examples are popular games. (Snake, Chess, TicTacToe, SeeBattle and etc)
 
 If you have any suggestions about this project, please, creating a new GitHub issue https://github.com/peterarsentev/games_oop_javafx/issues
 
-Вношу изменения для заданиа
+Вношу изменения для задания
 
 ## Snake
 
