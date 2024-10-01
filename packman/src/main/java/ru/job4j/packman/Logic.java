@@ -17,7 +17,6 @@ public class Logic {
     public Logic(int size) {
         this.board = new ReentrantLock[size][size];
         for (int row = 0; row != size; row++) {
-
             for (int cell = 0; cell != size; cell++) {
                 this.board[row][cell] = new ReentrantLock();
             }

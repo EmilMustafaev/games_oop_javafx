@@ -19,7 +19,6 @@ import java.util.stream.IntStream;
 public class PackMan extends Application {
     private static final String JOB4J = "Snake";
     private final int size = 10;
-
     private List<Rectangle> snake = new ArrayList<>();
 
     enum Direction {
